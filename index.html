@@ -31,27 +31,42 @@
             </div>
 
             <section class="main_table_container">
-                <div>
-                    <p>Monedas</p>
-                    <div>
+                <div class="main-currency-table">
+                    <p class="currency-table-title">Monedas</p>
+                    <div class="currency-table-container">
                         <table>
                             <tr>
-                                <td>Bitcoin</td>
-                                <td>$1.96</td>
+                                <td class="table__top-left">Bitcoin</td>
+                                <td class="table__top-rigth table__rigth">
+                                    $1.96
+                                    <span class="main-currency-table-icon trending-down"></span> 
+                                </td>
                             </tr>
                             <tr>
                                 <td>Etherium</td>
-                                <td>$0.07</td>
+                                <td class="table__rigth">
+                                    $0.07
+                                    <span class="main-currency-table-icon trending-up"></span>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Ripple</td>
-                                <td>$2.17</td>
+                                <td class="table__rigth">
+                                    $2.17
+                                    <span class="main-currency-table-icon trending-down"></span>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Estellar</td>
-                                <td>$4.96</td>
+                                <td class="table__bottom-left">Estellar</td>
+                                <td class="table__bottom-rigth table__rigth">
+                                    $4.96
+                                    <span class="main-currency-table-icon trending-down"></span>
+                                </td>
                             </tr>
                         </table>
+                    </div>
+                    <div class="currency-table-date">
+                        <p> <b>Actualizado: <script>document.write(new Date().toLocaleString());</script></b></p>
                     </div>
                 </div>                
             </section>
