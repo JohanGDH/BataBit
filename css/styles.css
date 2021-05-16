@@ -1,0 +1,152 @@
+/*
+1.-Posicionamiento-->static, absolute, relative, fixed
+2.-Modelo de Caja--->margin, border, padding, content
+3.-Tipografía------->tipos, tamaños de fuente, etc
+4.-Efectos Visuales->box-shadow, border-radius, gradient, etc
+5.-Otros------------>reglas CSS y más
+*/
+:root {
+    /*Colores*/
+    --bitcon-orange: #f7913a;
+    --soft-orange: #ffe9d5;
+    --secundary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+
+ }
+
+ html {
+     font-size: 62.5%;
+     font-family: "DM Sans",sans-serif;
+ }
+
+ header {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     min-width: 320px;
+     height: 333px;
+     text-align: center;
+     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    }
+
+ header img {
+     width: 150px;
+     height: 24px;
+     margin-top: 60px;
+     align-self: center;
+ }
+
+ .header_tittle_container {
+     width: 90%;
+     min-width: 288px;
+     max-width: 900px;
+     height: 218px;
+     margin-top: 30px;
+     text-align: center;
+     align-self: center;
+ }
+
+.header_tittle_container h1 {
+     
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);    
+}
+
+.header_tittle_container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
+
+.header_tittle_container .header_button {
+    position: absolute;
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    border-radius: 5px;
+    /*Sombra*/
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.20);
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+    left: calc(50% - 116px);
+}
+
+.header_button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../Assets/icons/down-arrow.svg');
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+ .main_exchange_container {
+     width: 100%;
+     height: auto;
+     padding-top: 80px;
+     padding-bottom: 30px;
+     text-align: center;
+ }
+
+ .main_exchange_container_tittle {
+     width: 90%;
+     min-width: 288px;
+     max-width: 900px;
+     margin: 0 auto;
+
+ }
+
+ .main_exchange_container .background_img {
+     width: 200px;
+     height: 200px;
+     margin: 0 auto;
+     margin-bottom: 50px;
+     background-image: url('../Assets/img/Bitcoin.svg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+
+ .main_exchange_container h2 {
+     margin-bottom: 30px;
+     font-size: 2.4rem;
+     font-weight: bold;
+     line-height: 2.6rem;
+     color: var(--black);
+ }
+
+ .main_exchange_container p {
+     margin-bottom: 30px;
+     font-size: 1.4rem;
+     font-weight: 500;
+     line-height: 1.6rem;
+     color: #757575;
+ }
