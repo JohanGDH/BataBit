@@ -167,6 +167,12 @@ main {
      line-height: 2.3rem;
      color: var(--bitcon-orange);
  }
+ .main-currency-table .currency-table-date {
+    width: 173px; 
+    margin: 0 auto;
+    padding: 8px;
+     background-color: var(--soft-orange);
+ }
 
  .currency-table-container {
      width: 90%;
@@ -210,9 +216,24 @@ main {
     border-radius: 0 0 0 8px;
  }
 
- .main-currency-table .currency-table-date {
-    width: 173px; 
-    margin: 0 auto;
-    padding: 8px;
-     background-color: var(--soft-orange);
+ .main-currency-table .table__rigth {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+ }
+ .main-currency-table-icon {
+     display: inline-block;
+     width: 15px;
+     height: 15px;
+     margin-left: 10px;
+     background-image: url("../assets/icons/trending-down.svg");
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+     vertical-align: middle;
+ }
+
+ .trending-up {
+     background-image: url("../assets/icons/trending-up.svg");
  }
