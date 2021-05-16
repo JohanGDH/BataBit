@@ -164,6 +164,7 @@ main {
      margin: 15px;
      font-size: 1.8rem;
      font-weight: bold;
+     text-align: left;
      line-height: 2.3rem;
      color: var(--bitcon-orange);
  }
