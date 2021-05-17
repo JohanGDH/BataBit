@@ -1,0 +1,27 @@
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;    
+}
+
+.plans-container--slider {
+    justify-content: center;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.main_table_container {
+    display: flex;
+    width: 900px;
+    margin: 0 auto; 
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.bitcoing-img-container{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
