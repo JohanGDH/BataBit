@@ -60,53 +60,52 @@
  }
 
 .header_tittle_container h1 {
-
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--just-white);
+     font-size: 2.4rem;
+     font-weight: bold;
+     line-height: 2.6rem;
+     color: var(--just-white);
 }
 
 .header_tittle_container p {
-    margin-top: 25px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color: var(--soft-orange);
+     margin-top: 25px;
+     font-size: 1.4rem;
+     font-weight: 500;
+     line-height: 1.8rem;
+     color: var(--soft-orange);
 }
 
 .header_tittle_container .header_button {
-    position: absolute;
-    top: 270px;
-    display: block;
-    margin-top: 35px;
-    padding: 15px;
-    width: 229px;
-    height: 48px;
-    background-color: var(--off-white);
-    border-radius: 5px;
-    /*Sombra*/
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.20);
-    border: none;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--black);
-    left: calc(50% - 116px);
+     position: absolute;
+     top: 270px;
+     display: block;
+     margin-top: 35px;
+     padding: 15px;
+     width: 229px;
+     height: 48px;
+     background-color: var(--off-white);
+     border-radius: 5px;
+     /*Sombra*/
+     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.20);
+     border: none;
+     font-size: 1.4rem;
+     font-weight: bold;
+     text-decoration: none;
+     color: var(--black);
+     left: calc(50% - 116px);
 }
 
 .header_button span {
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url('../Assets/icons/down-arrow.svg');
+     display: inline-block;
+     width: 13px;
+     height: 8px;
+     margin-left: 10px;
+     background-image: url('../Assets/icons/down-arrow.svg');
 }
 
 main {
-    width: 100%;
-    height: auto;
-    background-color: var(--off-white);
+     width: 100%;
+     height: auto;
+     background-color: var(--off-white);
 }
 
  .main_exchange_container {
@@ -168,19 +167,20 @@ main {
      line-height: 2.3rem;
      color: var(--bitcon-orange);
  }
+ 
  .main-currency-table .comisions {
-    color: var(--secundary-blue)    ;
-}
+     color: var(--secundary-blue)    ;
+ }
 
  .main-currency-table .currency-table-date {
-    width: max-content;
-    height: 30px;
-    font-family: "Inter";
-    margin: 0 auto;
-    padding: 8px;
-    border-radius: 8px;
-    background-color: var(--soft-orange);
-    overflow: hidden;
+     width: max-content;
+     height: 30px;
+     font-family: "Inter";
+     margin: 0 auto;
+     padding: 8px;
+     border-radius: 8px;
+     background-color: var(--soft-orange);
+     overflow: hidden;
  }
 
  .main-currency-table .soft-blue {
@@ -203,12 +203,12 @@ main {
  }
 
  .currency-table-container table{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    border-radius: 8px;
-    background-color: var(--just-white);
-    box-shadow: 0px 5px 9px rgb(161, 161, 161);
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     border-radius: 8px;
+     background-color: var(--just-white);
+     box-shadow: 0px 5px 9px rgb(161, 161, 161);
  }
 
  .currency-table-container td {
@@ -220,26 +220,26 @@ main {
  }
 
  .currency-table-container .table__top-left {
-    border-radius: 8px 0 0 0;
+     border-radius: 8px 0 0 0;
  }
 
  .currency-table-container .table__top-rigth {
-    border-radius: 0 8px 0 0;
+     border-radius: 0 8px 0 0;
  }
 
  .currency-table-container .table__bottom-rigth {
-    border-radius: 0 0 8px 0;
+     border-radius: 0 0 8px 0;
  }
 
  .currency-table-container .table__bottom-left {
-    border-radius: 0 0 0 8px;
+     border-radius: 0 0 0 8px;
  }
 
  .main-currency-table .table__rigth {
-    font-size: 1.4rem;
-    font-weight: normal;
-    line-height: 1.7rem;
-    color: #757575;
+     font-size: 1.4rem;
+     font-weight: normal;
+     line-height: 1.7rem;
+     color: #757575;
  }
  .main-currency-table-icon {
      display: inline-block;
@@ -263,7 +263,7 @@ main {
      min-width: 320px;
      height: auto;
      padding: 20px 15px;
-     background-color: var(--warm-black);
+     background-color: var(--black);
  }
 
  .product-detail--batata-logo {
@@ -287,12 +287,12 @@ main {
  }
 
  .product-detail--title h2 {
-    text-align: center;
-    color: var(--just-white);
-    font-weight: 700;
-    font-size: 2.4rem;
-    line-height: 2.6rem;
-    margin-bottom: 20px;
+     text-align: center;
+     color: var(--just-white);
+     font-weight: 700;
+     font-size: 2.4rem;
+     line-height: 2.6rem;
+     margin-bottom: 20px;
  }
 
  .product-detail--title p {
@@ -304,3 +304,58 @@ main {
      margin-bottom: 30px
      ;
  }
+
+ .product-detail--card {
+     width: 100%;
+     min-width: 288px;
+     max-width: 400px;
+     height: 150px;
+     margin: 15px auto;
+     padding: 15px;
+     background-color: var(--warm-black);
+     border-radius: 5px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+ }
+
+ .product-detail--card .icon  {
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     margin-bottom: 10px;     
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ 
+ .product-detail--card .clock {
+     background-image: url("../assets/icons/clock.svg");
+ }
+
+ .product-detail--card .dollar {
+     background-image: url("../assets/icons/dollar-sign.svg");    
+}
+
+.product-detail--card .eye {
+     background-image: url("../assets/icons/eye.svg");
+}
+
+.product-detail--card .check {
+     background-image: url("../assets/icons/check-circle.svg");
+}
+
+.product-detail--card .product--card-title {
+     font-size: 1.8rem;
+     line-height: 1.8rem;     
+     font-weight: bold;
+     font-family: "DM Sans";
+     color: var(--just-white);
+     margin-bottom: 10px;
+}
+
+.product-detail--card .product--card-body {
+     font-size: 1.4rem;
+     font-weight: 1.8rem;
+     font-weight: 500;
+     color: #808080;
+}
+
