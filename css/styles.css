@@ -359,3 +359,22 @@ main {
      color: #808080;
 }
 
+.bitcoing-img-container {
+     width: 100%;
+     min-width: 320px;
+     height: 55vh;
+     background-image: url('../assets//img/bitcoinbaby2x.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     text-align: center;
+}
+
+.bitcoing-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    
+}
